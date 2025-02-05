@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(images/bg.jpg);
+  background-size: 100%;
+}
+header {
+  color: white;
+  animation: colorChange 10s infinite;
+}
+p {
+  color: orangered;
+  font-size: 10px;
+}
+@keyframes colorChange {
+  0% {
+    color: #FF0000;
+  }
+  25% {
+    color: #7BFF00;
+  }
+  50% {
+    color: #00FFEF;
+  }
+  75% {
+    color: #8D00FF;
+  }
+  100% {
+    color: #FF0000;
+  }
+}
