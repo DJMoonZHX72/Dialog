@@ -10,7 +10,7 @@ header {
   animation: colorChange 10s infinite;
 }
 p {
-  color: #8cooff;
+  color: #8c00ff;
   font-size: 10px;
 }
 @keyframes colorChange {
